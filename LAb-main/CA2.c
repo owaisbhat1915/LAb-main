@@ -3,7 +3,7 @@
 #include<unistd.h>
 int main()
 {
-    int n=open("MandeepSingh.txt",O_RDONLY,0777);
+    int n=open("Owais.txt",O_RDONLY,0777);
     char c;
     while (read(n,&c,1))
     {

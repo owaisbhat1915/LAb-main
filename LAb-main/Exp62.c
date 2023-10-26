@@ -13,7 +13,7 @@ void *find(void *str)
 int main()
 {
     pthread_t thread1;
-    char *a = "hi my name is mandeep";
+    char *a = "hi my name is Owais";
     pthread_create(&thread1, NULL, &find, a);
     pthread_join(thread1, NULL);
 }
